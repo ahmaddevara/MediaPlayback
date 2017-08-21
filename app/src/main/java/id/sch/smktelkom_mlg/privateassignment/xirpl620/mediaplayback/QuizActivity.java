@@ -68,6 +68,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         // Initialize the player view.
         mPlayerView = (SimpleExoPlayerView) findViewById(R.id.playerView);
 
+
         boolean isNewGame = !getIntent().hasExtra(REMAINING_SONGS_KEY);
 
         // If it's a new game, set the current score to 0 and load all samples.
@@ -136,7 +137,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
     /**
      * Initialize ExoPlayer.
-     *
      * @param mediaUri The URI of the sample to play.
      */
     private void initializePlayer(Uri mediaUri) {
