@@ -61,7 +61,7 @@ import java.util.ArrayList;
 public class QuizActivity extends AppCompatActivity implements View.OnClickListener, ExoPlayer.EventListener {
 
     private static final int CORRECT_ANSWER_DELAY_MILLIS = 1000;
-    private static final String REMAINING_SONGS_KEY = "remaining_songs";
+    private static final String REMAINING_SONGS_KEY = "sisa lagu";
     private static final String TAG = QuizActivity.class.getSimpleName();
     private static MediaSessionCompat mMediaSession;
     private int[] mButtonIDs = {R.id.buttonA, R.id.buttonB, R.id.buttonC, R.id.buttonD};
